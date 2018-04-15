@@ -7,7 +7,7 @@ parameter n = 12;
 
  always @ (posedge clk) begin
    if (reset)
-      out <= 12'101010101010;
+      out <= 12'b101010101010;
     else
       if (E)
         out <= {out[10], out[9], out[8], out[7], out[6], out[5],
