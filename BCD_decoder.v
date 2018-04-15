@@ -15,4 +15,5 @@ always @ (bcd) begin
   endcase
 end
 
+
 endmodule //BCD_decoder
